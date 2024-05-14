@@ -31,16 +31,17 @@ createdb acme_talent_agency_db
 - install dependencies
 
 ```
-npm install && cd client && npm install
+cd client && npm install
+cd server && npm install
 ```
 
-- start server in root directory of repository
+- start server in server directory
 
 ```
-npm run start:dev
+cd server && npm run devStart
 ```
 
-- start vite server in client directory
+- start vite in client directory
 
 ```
 npm run dev
